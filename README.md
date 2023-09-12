@@ -56,6 +56,8 @@ Esse endpoint deverá listar todas as contas bancárias existentes.
 // nenhuma conta encontrada
 []
 ```
+![Listar](https://github.com/dERICOd/API-REST-Desafio-Modulo-02-Cubos-Academy/assets/125318938/f5d607c3-754c-4a7f-a6f7-79c148e6be97)
+
 
 ### Criar conta bancária
 
@@ -85,6 +87,7 @@ Esse endpoint deverá criar uma conta bancária, onde será gerado um número ú
     "senha": "12345"
 }
 ```
+![Cadastrar](https://github.com/dERICOd/API-REST-Desafio-Modulo-02-Cubos-Academy/assets/125318938/9cc6dde8-bf76-4ec8-9c39-2fcd3d491dee)
 
 ### Atualizar usuário da conta bancária
 
@@ -113,6 +116,8 @@ Esse endpoint deverá atualizar apenas os dados do usuário de uma conta bancár
     "senha": "12345"
 {
 ```
+![Atualizar](https://github.com/dERICOd/API-REST-Desafio-Modulo-02-Cubos-Academy/assets/125318938/198f00b4-1988-4960-a467-7d3c22bd83de)
+
 
 ### Excluir Conta
 
@@ -123,6 +128,7 @@ Esse endpoint deve excluir uma conta bancária existente.
 -   **Requisição**
 
     -   Numero da conta bancária (passado como parâmetro na rota)
+![Excluir](https://github.com/dERICOd/API-REST-Desafio-Modulo-02-Cubos-Academy/assets/125318938/76d2a2c2-950e-4c4f-af80-458baa96803b)
 
 
 ### Depositar
@@ -144,6 +150,8 @@ Esse endpoint deverá somar o valor do depósito ao saldo de uma conta válida e
 	"valor": 1900
 }
 ```
+![Depositar](https://github.com/dERICOd/API-REST-Desafio-Modulo-02-Cubos-Academy/assets/125318938/79a68318-62a2-4ff4-a235-bee3476e7a2e)
+
 
 ### Sacar
 
@@ -166,6 +174,7 @@ Esse endpoint deverá realizar o saque de um valor em uma determinada conta banc
     "senha": "123456"
 }
 ```
+![Sacar](https://github.com/dERICOd/API-REST-Desafio-Modulo-02-Cubos-Academy/assets/125318938/96f46b43-6276-4402-a659-9f433602c48a)
 
 ### Tranferir
 
@@ -190,6 +199,7 @@ Esse endpoint deverá permitir a transferência de recursos (dinheiro) de uma co
 	"senha": "123456"
 }
 ```
+![Transferir](https://github.com/dERICOd/API-REST-Desafio-Modulo-02-Cubos-Academy/assets/125318938/50905036-e882-476c-8725-22b5c85351fb)
 
 ### Saldo
 
@@ -206,6 +216,7 @@ Esse endpoint deverá retornar o saldo de uma conta bancária.
 
     -   Saldo da conta
 
+![Saldo](https://github.com/dERICOd/API-REST-Desafio-Modulo-02-Cubos-Academy/assets/125318938/edd3ab55-e9e8-4bf5-bdcb-ac7f12ec172e)
 
 ### Extrato
 
@@ -269,4 +280,5 @@ Esse endpoint deverá listar as transações realizadas de uma conta específica
   ]
 }
 ```
+![Extrato](https://github.com/dERICOd/API-REST-Desafio-Modulo-02-Cubos-Academy/assets/125318938/adb9daf9-cc7b-40ed-b930-bf61841a2294)
 
